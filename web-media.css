@@ -1,0 +1,150 @@
+@media (max-width:767px){
+    .nav-items{
+    display:none;
+    }
+    .social-box{
+    display: none;
+    }
+    .fa-bars{
+    display:block;
+    }
+    }
+    
+    
+    @media (max-width:699px){
+        .profile img{
+            height:300px;
+        }
+        .description{
+            margin:50px auto;
+        }
+        .description h1{
+            font-size: 17px;
+        }
+        .description h2{
+            font-size: 16px;
+        }
+        .description p{
+            font-size: 14px;
+        }
+        .buttons button{
+            padding:10px 20px 10px 20px;
+        }
+        .container-3{
+            flex-wrap: wrap;
+        }
+        .container-3 .profile-3 img{
+            height:200px;
+        }
+        .container-3 .description-3 h2{
+            font-size: 17px;
+        }
+        .container-3 .description-3 p{
+            font-size: 14px;
+        }
+        .services{
+            flex-wrap: wrap;
+        }
+        .animate .description-2 {
+            animation-duration: 1.34s; /* Slightly longer duration on mobile */
+        }
+    
+        .animate .profile-2 {
+            animation-duration: 1.34s; /* Slightly delayed for smoother transition */
+        }
+        .container-4{
+            flex-wrap: wrap;
+        }
+        .profile-4 img{
+            height: 200px;
+        }
+        .description-4 h2{
+            font-size: 17px;
+        }
+        .description-4 p{
+            font-size: 14px;
+        }
+        .profile-5 img{
+           height: 230px;
+        }
+    }
+    
+    @media only screen and (min-width: 700px) and (max-width: 1100px) {
+        .profile img {
+            height: 350px;
+        }
+        .container-3 .profile-3 img{
+            height: 250px;
+        }
+        .container-2 .profile-2 img{
+            height: 250px;
+        }
+    }
+
+    @media (max-width:440px){
+        .test .container-2{
+            flex-wrap: wrap;
+        }
+        .container-2 .profile-2 img{
+            height: 165px;
+        }
+        .description-2 h4{
+            font-size: 14px;
+        }
+        .description-2 h2{
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (min-width: 441px) and (max-width: 600px) {
+        .test .container-2{
+            flex-wrap: wrap;
+        }
+       .container-2 .profile-2 img {
+            height: 230px;
+        }
+    }
+
+    @media only screen and (min-width: 601px) and (max-width:990px) {
+        .test .container-2{
+            flex-wrap: wrap;
+        }
+       .container-2 .profile-2 img {
+            height: 300px;
+        }
+        .profile-5 img{
+            height:250px;
+        }
+    }
+
+
+    @media only screen and (min-width:990px) and (max-width:1126px){
+        .profile-5 img{
+            height:250px;
+        }
+    }
+
+    @media only screen and (min-width:1126px) and (max-width:1212px){
+        .profile-5 img{
+            height:350px;
+        }
+    }
+
+
+    @media (max-width: 480px) {
+        .contact-form-container {
+            padding: 15px;
+        }
+    
+        .contact-form-container h2 {
+            font-size: 20px;
+        }
+    
+        input, textarea, button {
+            font-size: 14px;
+            padding: 8px;
+        }
+        .contact-form-container{
+            max-width:80%;
+        }
+    }
